@@ -76,7 +76,7 @@ export const useOptions = create<OptionsState>()(
       set_content_directory: (value) =>
         set(() => ({ content_directory: value })),
 
-      simple_edit: false,
+      simple_edit: true,
       set_simple_edit: (value) => set(() => ({ simple_edit: value })),
 
       disable_pre_edits: false,
